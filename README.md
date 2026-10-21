@@ -24,12 +24,13 @@
 
 | 安装包 | 适用系统 |
 |--------|----------|
-| `xiahua-listening-mac-M.zip` | Mac（M1/M2/M3/M4 芯片） |
-| `xiahua-listening-mac-intel.zip` | Mac（Intel 芯片） |
-| `xiahua-listening-win.zip` | Windows |
+| `xiahua-listening-win-part1-app + part2-P12 + part3-P34` | Windows（3 个分卷都下载） |
+| `xiahua-listening-mac-M-part1 + part2` | Mac（M1/M2/M3/M4 芯片，2 个分卷都下载） |
+| `xiahua-listening-mac-intel-part1-app + part2-bank` | Mac（Intel 芯片，2 个分卷都下载） |
 
-- **Mac**：解压后双击 `xiahua.command` 启动（提示权限问题时先运行 `Mac修复权限.command`）
-- **Windows**：解压后双击 `xiahua.exe` 启动
+- 下载后把同一系统的**全部分卷**放到一个文件夹，分别双击解压并合并到同一目录
+- **Mac**：双击 `xiahua.command` 启动（提示权限问题时先运行 `Mac修复权限.command`）
+- **Windows**：双击 `xiahua.exe` 启动
 - 安装与答题详细说明见 `启动和安装！….docx`
 
 > 本仓库只存题库数据（不含 `tools/` 运行时），完整可运行版本请从 Releases 下载。三个平台的题库内容以 mac-M 版（363 篇）为最全。
