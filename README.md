@@ -1,6 +1,6 @@
 # 虾滑雅思听力题库（XiaHua IELTS Listening）
 
-雅思听力在线练习题库，含 **P1-P4 四个 Part** 全部篇目（高频 / 次高频 / 非高频分级），每篇包含音频 + 交互式 HTML 题目 + PDF 原文。支持 **Windows** 和 **macOS（M 芯片 / Intel 芯片）**。
+雅思听力在线练习题库，含 **P1-P4 四个 Part、219 套题目**（高频 / 次高频 / 非高频分级），每套包含音频 + 交互式 HTML 题目 + PDF 原文。支持 **Windows** 和 **macOS（M 芯片 / Intel 芯片）**。
 
 > ⚠️ **重要提示**
 > 本仓库只存放**题库数据**，**不包含程序本体**（Electron 运行时，因单文件超过 GitHub 100MB 限制无法入库）。
@@ -10,27 +10,27 @@
 
 ## 📥 一、先确定你的电脑类型
 
-| 你的电脑 | 下载哪一组文件（3 个都要下载） |
+| 你的电脑 | 下载哪一组文件（2 个都要下载） |
 |----------|-------------------------------|
-| Windows（Win10 / Win11） | `xiahua-listening-win-part1-app.zip`<br>`xiahua-listening-win-part2-P12.zip`<br>`xiahua-listening-win-part3-P34.zip` |
-| Mac（Apple 芯片 M1/M2/M3/M4） | `xiahua-listening-mac-M-part1-app.zip`<br>`xiahua-listening-mac-M-part2-P12.zip`<br>`xiahua-listening-mac-M-part3-P34.zip` |
-| Mac（Intel 芯片） | `xiahua-listening-mac-intel-part1-app.zip`<br>`xiahua-listening-mac-intel-part2-P12.zip`<br>`xiahua-listening-mac-intel-part3-P34.zip` |
+| Windows（Win10 / Win11） | `xiahua-listening-win-part1-app.zip`<br>`xiahua-listening-win-part2-bank.zip` |
+| Mac（Apple 芯片 M1/M2/M3/M4） | `xiahua-listening-mac-M-part1-app.zip`<br>`xiahua-listening-mac-M-part2-bank.zip` |
+| Mac（Intel 芯片） | `xiahua-listening-intel-part1-app.zip`<br>`xiahua-listening-intel-part2-bank.zip` |
 
 > 不知道自己 Mac 是什么芯片？点左上角苹果图标 → 关于本机，看「芯片」一栏：写 Apple M1/M2/M3 选 M 版，写 Intel 选 Intel 版。
 
-**分卷含义**：`part1-app` 是程序本体，`part2-P12` 是 P1+P2 题目，`part3-P34` 是 P3+P4 题目。**三个必须全部下载**，缺一个都无法正常使用。
+**分卷含义**：`part1-app` 是程序本体，`part2-bank` 是全部题库。**两个必须都下载**，缺一个都无法正常使用。
 
 👉 **下载地址：[Releases 页面](https://github.com/ivy11220911-droid/XiaHua-IELTS-Listening/releases/latest)**
-在 Assets 区域点击文件名即可下载；单个分卷约 0.3–1.4GB，全部合计约 7–8GB。
+在 Assets 区域点击文件名即可下载；单个分卷约 0.3–1.5GB，全部合计约 3–4GB。
 
 ---
 
 ## 🚀 二、安装步骤（Windows 与 Mac 通用）
 
-**核心只做一件事：把 3 个分卷都解压到同一个文件夹里。**
+**核心只做一件事：把 2 个分卷都解压到同一个文件夹里。**
 
-1. 把属于你系统的 **3 个分卷全部下载**到同一个文件夹（例如「下载」里）
-2. 依次解压这 3 个 zip（Windows 用系统自带或 7-Zip / WinRAR；Mac 双击即可）
+1. 把属于你系统的 **2 个分卷全部下载**到同一个文件夹（例如「下载」里）
+2. 依次解压这 2 个 zip（Windows 用系统自带或 7-Zip / WinRAR；Mac 双击即可）
 3. 解压时如提示**文件夹已存在**，选择**合并 / 覆盖**（不会覆盖你的做题记录）
 4. 打开解压出来的 `xiahua-listening-win`（或 `xiahua-listening-mac-M` / `xiahua-listening-mac-intel`）文件夹
 5. 启动程序：
@@ -54,7 +54,7 @@
 ## ❓ 四、常见问题
 
 **Q：双击没反应 / 闪退？**
-A：多半是分卷没下全或没解压到同一个文件夹。请确认 3 个分卷都已下载并解压合并，且文件夹里同时存在 `tools` 和 `IELTS Listening 虾滑`。
+A：多半是分卷没下全或没解压到同一个文件夹。请确认 2 个分卷都已下载并解压合并，且文件夹里同时存在 `tools` 和 `IELTS Listening 虾滑`。
 
 **Q：Mac 提示权限错误？**
 A：先运行同目录下的 `Mac修复权限.command`，再双击 `xiahua.command`。
@@ -68,15 +68,15 @@ A：请先完整解压再打开，**不要**在压缩包里直接双击运行。
 **Q：只下载本仓库代码（ZIP / clone）能用吗？**
 A：不能。仓库只有题库数据，缺少程序本体，必须按上面步骤从 Releases 下载完整安装包。
 
-**Q：各系统版本的题目数量一样吗？**
-A：基本一致，但**以 macOS M 芯片版为最全（365 套）**，Windows 与 Intel 版当前为 358 套，少量篇目仍在补齐中。做题记录与系统无关，换系统不影响使用。
+**Q：三个系统的题目数量一样吗？**
+A：**完全一样，都是 219 套**，题目内容逐套一致。做题记录与系统无关，换系统不影响使用。
 
 ---
 
-## 📁 五、仓库内容说明（给想了解结构的人）
+## 📁 五、题库结构说明
 
 ```
-├── IELTS Listening 虾滑/     # 题库本体（以 mac-M 版为基准，365 套）
+├── IELTS Listening 虾滑/     # 题库本体（219 套）
 │   ├── P1/ … P4/             # 按 Part 分级
 │   │   └── 高频 / 次高频 / 非高频/
 │   │       └── N. P_ 题目名/
@@ -90,7 +90,7 @@ A：基本一致，但**以 macOS M 芯片版为最全（365 套）**，Windows 
 ```
 
 - `tools/` 目录（Electron 运行时）未纳入仓库，仅存在于 Release 安装包中
-- 同一道题可能同时出现在「高频」「次高频」「非高频」多个分级中，这是题库的设计方式，不是重复上传
+- **每道题只属于一个频率档**（高频 / 次高频 / 非高频），不会重复出现在多个档位
 - 新增题目统一放入对应 Part 的 `高频/` 目录
 
 ---
@@ -102,11 +102,11 @@ A：基本一致，但**以 macOS M 芯片版为最全（365 套）**，Windows 
 ### 第 1 步：下载完整安装包
 
 1. 打开 **https://github.com/ivy11220911-droid/XiaHua-IELTS-Listening/releases/latest**
-2. 按你的系统下载**全部 3 个分卷**（见第一节对照表）
+2. 按你的系统下载**全部 2 个分卷**（见第一节对照表）
 3. 全部解压到同一个文件夹（提示合并/覆盖时选「合并」）
 4. 双击 `xiahua.exe` / `xiahua.command` 启动 ✅ 恢复完成
 
-> 换电脑后系统变了也没关系：Windows 换 Mac 就下 Mac 的分卷，反之亦然，题库内容基本一致。
+> 换电脑后系统变了也没关系：Windows 换 Mac 就下 Mac 的分卷，反之亦然，题库内容完全一样。
 
 ### 第 2 步：恢复学习记录（如果之前备份过）
 
