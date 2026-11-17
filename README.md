@@ -10,27 +10,29 @@
 
 ## 📥 一、先确定你的电脑类型
 
-| 你的电脑 | 下载哪一组文件（2 个都要下载） |
+| 你的电脑 | 下载哪一组文件（3 个都要下载） |
 |----------|-------------------------------|
-| Windows（Win10 / Win11） | `xiahua-listening-win-part1-app.zip`<br>`xiahua-listening-win-part2-bank.zip` |
-| Mac（Apple 芯片 M1/M2/M3/M4） | `xiahua-listening-mac-M-part1-app.zip`<br>`xiahua-listening-mac-M-part2-bank.zip` |
-| Mac（Intel 芯片） | `xiahua-listening-intel-part1-app.zip`<br>`xiahua-listening-intel-part2-bank.zip` |
+| Windows（Win10 / Win11） | `xiahua-listening-win-part1-app.zip`<br>`xiahua-listening-win-part2-bank.zip`<br>`xiahua-listening-win-update-222.zip` |
+| Mac（Apple 芯片 M1/M2/M3/M4） | `xiahua-listening-mac-M-part1-app.zip`<br>`xiahua-listening-mac-M-part2-bank.zip`<br>`xiahua-listening-mac-M-update-222.zip` |
+| Mac（Intel 芯片） | `xiahua-listening-intel-part1-app.zip`<br>`xiahua-listening-intel-part2-bank.zip`<br>`xiahua-listening-intel-update-222.zip` |
+
+> 🆕 **2026-11-17 更新**：题库由 219 套增加到 **222 套**。全量安装包（`part1-app` + `part2-bank`）仍是 219 套那一版，新增的 3 套在 **`-update-222.zip` 增量包**里（约 31MB）。三件套全部解压到同一个文件夹 = 222 套。已有旧版的同学只需补下增量包。
 
 > 不知道自己 Mac 是什么芯片？点左上角苹果图标 → 关于本机，看「芯片」一栏：写 Apple M1/M2/M3 选 M 版，写 Intel 选 Intel 版。
 
-**分卷含义**：`part1-app` 是程序本体，`part2-bank` 是全部题库。**两个必须都下载**，缺一个都无法正常使用。
+**分卷含义**：`part1-app` 是程序本体，`part2-bank` 是题库主体（219 套），`update-222.zip` 是新增的 3 套。**三个都要下载**，缺一个题库就不完整。
 
 👉 **下载地址：[Releases 页面](https://github.com/ivy11220911-droid/XiaHua-IELTS-Listening/releases/latest)**
-在 Assets 区域点击文件名即可下载；单个分卷约 0.4–1.5GB，全部合计约 5.8GB（只需下你系统的 2 个）。
+在 Assets 区域点击文件名即可下载；单个分卷约 0.4–1.5GB + 增量包 31MB，全套合计约 5.8GB（只需下你系统的 3 个）。
 
 ---
 
 ## 🚀 二、安装步骤（Windows 与 Mac 通用）
 
-**核心只做一件事：把 2 个分卷都解压到同一个文件夹里。**
+**核心只做一件事：把 3 个包都解压到同一个文件夹里。**
 
-1. 把属于你系统的 **2 个分卷全部下载**到同一个文件夹（例如「下载」里）
-2. 依次解压这 2 个 zip（Windows 用系统自带或 7-Zip / WinRAR；Mac 双击即可）
+1. 把属于你系统的 **3 个包全部下载**到同一个文件夹（例如「下载」里）
+2. 依次解压这 3 个 zip（Windows 用系统自带或 7-Zip / WinRAR；Mac 双击即可）
 3. 解压时如提示**文件夹已存在**，选择**合并 / 覆盖**（不会覆盖你的做题记录）
 4. 打开解压出来的 `xiahua-listening-win`（或 `xiahua-listening-mac-M` / `xiahua-listening-mac-intel`）文件夹
 5. 启动程序：
@@ -54,7 +56,7 @@
 ## ❓ 四、常见问题
 
 **Q：双击没反应 / 闪退？**
-A：多半是分卷没下全或没解压到同一个文件夹。请确认 2 个分卷都已下载并解压合并，且文件夹里同时存在 `tools` 和 `IELTS Listening 虾滑`。
+A：多半是分卷没下全或没解压到同一个文件夹。请确认 3 个包都已下载并解压合并，且文件夹里同时存在 `tools` 和 `IELTS Listening 虾滑`。
 
 **Q：Mac 提示权限错误？**
 A：先运行同目录下的 `Mac修复权限.command`，再双击 `xiahua.command`。
@@ -102,7 +104,7 @@ A：**完全一样，都是 222 套**，题目内容逐套一致。做题记录�
 ### 第 1 步：下载完整安装包
 
 1. 打开 **https://github.com/ivy11220911-droid/XiaHua-IELTS-Listening/releases/latest**
-2. 按你的系统下载**全部 2 个分卷**（见第一节对照表）
+2. 按你的系统下载**全部 3 个包**（见第一节对照表）
 3. 全部解压到同一个文件夹（提示合并/覆盖时选「合并」）
 4. 双击 `xiahua.exe` / `xiahua.command` 启动 ✅ 恢复完成
 
@@ -130,7 +132,7 @@ A：**完全一样，都是 222 套**，题目内容逐套一致。做题记录�
 
 | 日期 | 内容 |
 |------|------|
-| 2026-11-17 | 新增 3 套真题：**145 P1 Request for Commercial Lease**（P1/非高频）、**146 P3 Career Mentoring Programme**（P3/次高频）、**147 P3 Survey on Music Students**（P3/高频）。题库 **219 → 222 套**，原有题目一套未删。安装包同步更新为 v1.2。 |
+| 2026-11-17 | 新增 3 套真题：**145 P1 Request for Commercial Lease**（P1/非高频）、**146 P3 Career Mentoring Programme**（P3/次高频）、**147 P3 Survey on Music Students**（P3/高频）。题库 **219 → 222 套**，原有题目一套未删。安装包同步更新为 v1.2 **增量包**（全量包仍为 v1.1，三者解压合并即 222 套）。 |
 | 2026-10-30 | 题库去重，同一题不再出现在多个频率档；三系统题量统一为 219 套。 |
 
 ---
